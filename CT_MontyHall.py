@@ -23,7 +23,7 @@ def choose_door():
 	aleatorio = np.random.choice(lista)
 	return aleatorio
 
-print "SE ESCOJE LA PUERTA" choose_door()
+print "SE ESCOJE LA PUERTA", choose_door()
 
 # Recorre la lista en los espacios que no incluyen a choice , cuando encuentra el primer 'goat' lo remplaza por 'GOAT_MONTY'
 
